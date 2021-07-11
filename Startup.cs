@@ -25,6 +25,7 @@ namespace WebAppService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddControllers();
             services.AddTransient<JsonFileUserService>();
         }
 
@@ -52,6 +53,7 @@ namespace WebAppService
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }
