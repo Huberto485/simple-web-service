@@ -1,30 +1,14 @@
 ﻿@page
+@using WebAppService.Components
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
 }
 
+<script src="_framework/blazor.server.js"></script>
+
 <div class="text-center">
     <h1 class="display-4">Simple Web Service</h1>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <th>User ID</th>
-            <th>User Name</th>
-            <th>User Email</th>
-            <th>User Telephone</th>
-        </tr>
-
-        @foreach (var user in Model.Users)
-        {
-            <tr>
-                <td>@user.Id</td>
-                <td>@user.Name</td>
-                <td>@user.Email</td>
-                <td>@user.Telephone</td>
-            </tr>
-        }
-    </table>
-</div>
+@(await Html.RenderComponentAsync<UserList>(RenderMode.ServerPrerendered))

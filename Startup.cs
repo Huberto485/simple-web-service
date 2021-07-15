@@ -25,6 +25,7 @@ namespace WebAppService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddServerSideBlazor();
             services.AddControllers();
             services.AddTransient<JsonFileUserService>();
         }
@@ -54,6 +55,7 @@ namespace WebAppService
             {
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
+                endpoints.MapBlazorHub();
             });
         }
     }

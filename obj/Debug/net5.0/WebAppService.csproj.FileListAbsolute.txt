@@ -38,3 +38,8 @@ D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\ref\WebAp
 D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\WebAppService.pdb
 D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\WebAppService.genruntimeconfig.cache
 D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\WebAppService.csproj.CopyComplete
+D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\WebAppService.RazorComponent.input.cache
+D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\RazorDeclaration\Components\UserList.razor.g.cs
+D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\WebAppService.RazorComponent.output.cache
+D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\RazorDeclaration\WebAppService.dll
+D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\Razor\Components\UserList.razor.g.cs
