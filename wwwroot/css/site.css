@@ -12,6 +12,18 @@ a {
   color: #0366d6;
 }
 
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px 5px 0px 5px;
+}
+
+th {
+    font-size: 21px;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;
