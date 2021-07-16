@@ -24,6 +24,22 @@ th {
     font-size: 21px;
 }
 
+/* Custom form margins for multiple form divs */
+.form-first {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.form-last {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.form-middle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;

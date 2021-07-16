@@ -10,5 +10,18 @@
 <div class="text-center">
     <h1 class="display-4">Simple Web Service</h1>
 </div>
+<div>
+    <div class="form-first">
+        @(await Html.RenderComponentAsync<InsertForm>(RenderMode.ServerPrerendered))
+    </div>
+
+    <div class="form-middle">
+        @(await Html.RenderComponentAsync<UpdateForm>(RenderMode.ServerPrerendered))
+    </div>
+
+    <div class="form-last">
+        @(await Html.RenderComponentAsync<DeleteForm>(RenderMode.ServerPrerendered))
+    </div>
+</div>
 
 @(await Html.RenderComponentAsync<UserList>(RenderMode.ServerPrerendered))

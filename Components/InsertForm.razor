@@ -1,0 +1,25 @@
+@using Microsoft.AspNetCore.Components.Web
+@using WebAppService.Models
+@using WebAppService.Services
+@inject JsonFileUserService UserService
+
+<h3>Insert New User</h3>
+
+<div>
+    <form action="/users/create">
+        <label>Name:</label>
+        <input type="text" id="userName" name="userName" required />
+
+        <label>Email:</label>
+        <input type="text" id="userEmail" name="userEmail" required />
+
+        <label>Telephone:</label>
+        <input type="text" id="userTelephone" name="userTelephone" />
+
+        <input type="submit" value="Insert User" />
+    </form>
+</div>
+
+@code {
+
+}

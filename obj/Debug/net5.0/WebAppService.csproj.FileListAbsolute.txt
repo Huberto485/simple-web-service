@@ -43,3 +43,9 @@ D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\RazorDecl
 D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\WebAppService.RazorComponent.output.cache
 D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\RazorDeclaration\WebAppService.dll
 D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\Razor\Components\UserList.razor.g.cs
+D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\RazorDeclaration\Components\InsertForm.razor.g.cs
+D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\Razor\Components\InsertForm.razor.g.cs
+D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\RazorDeclaration\Components\DeleteForm.razor.g.cs
+D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\Razor\Components\DeleteForm.razor.g.cs
+D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\RazorDeclaration\Components\UpdateForm.razor.g.cs
+D:\Program Files\VS Community Workspace\WebAppService\obj\Debug\net5.0\Razor\Components\UpdateForm.razor.g.cs

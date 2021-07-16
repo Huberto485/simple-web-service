@@ -1,0 +1,19 @@
+@using Microsoft.AspNetCore.Components.Web
+@using WebAppService.Models
+@using WebAppService.Services
+@inject JsonFileUserService UserService
+
+<h3>Delete User</h3>
+
+<div>
+    <form action="/users/delete">
+        <label>User ID:</label>
+        <input type="text" id="userId" name="userId" required />
+
+        <input type="submit" value="Delete User" />
+    </form>
+</div>
+
+@code {
+
+}

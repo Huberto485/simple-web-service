@@ -1,0 +1,28 @@
+@using Microsoft.AspNetCore.Components.Web
+@using WebAppService.Models
+@using WebAppService.Services
+@inject JsonFileUserService UserService
+
+<h3>Update User Details</h3>
+
+<div>
+    <form action="/users/update">
+        <label>User ID:</label>
+        <input type="text" id="userId" name="userId" required />
+
+        <label>Name:</label>
+        <input type="text" id="userName" name="userName" />
+
+        <label>Email:</label>
+        <input type="text" id="userEmail" name="userEmail" />
+
+        <label>Telephone:</label>
+        <input type="text" id="userTelephone" name="userTelephone" />
+
+        <input type="submit" value="Update User" />
+    </form>
+</div>
+
+@code {
+
+}

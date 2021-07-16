@@ -116,8 +116,6 @@ namespace WebAppService.Services
 
             query.RemoveAt(counter);
 
-
-
             using (var outputStream = File.Create(JSonFileName))
             {
                 JsonSerializer.Serialize<IEnumerable<User>>(
